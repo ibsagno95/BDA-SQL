@@ -23,6 +23,8 @@ Les réponses attendues appaîtront progressivement. Voici un exemple de sorties
 
 ## Les livres jamais empruntés
 ![](https://github.com/ibsagno95/BDA-SQL/blob/main/Output/livres_jamais_emprunte.PNG)  
+**NB**: Les caractères spéciaux peuvent rencontrés des problèmes d'affichage.
 
 ## Etat des emprunts des livres (1 si supérieur à 3 mois 0 sinon)
-![](https://github.com/ibsagno95/BDA-SQL/blob/main/Output/etat_des_emprunts.PNG)  
+![](https://github.com/ibsagno95/BDA-SQL/blob/main/Output/etat_des_emprunts.PNG)   
+
