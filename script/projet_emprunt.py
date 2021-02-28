@@ -134,7 +134,7 @@ Student.join(Borrow,["sid"],how="left")\
 
  ## Déterminer l’auteur qui a écrit le plus de livres.
  ## SQL
- print("************** L'auteur qui a écrit le plus de livres")
+print("************** L'auteur qui a écrit le plus de livres")
 spark.sql(""" SELECT Author_SQL.name,COUNT(*) as nombre
               FROM Author_SQL 
               LEFT JOIN Write_SQL on   Author_SQL.aid = Write_SQL.aid 
@@ -174,7 +174,7 @@ spark.sql(""" select *,
     from Borrow_SQL """).show()
 ## DSL
 Borrow_export = Borrow\
-    .withColumn("format",F.lit("dd-MM-yyyy"))\ 
+    .withColumn("format",F.lit("dd-MM-yyyy"))\
     .withColumn("start",F.expr("to_date(`checkout_time`, format)"))\
     .withColumn("end",F.expr("to_date(`return_time`, format)"))\
     .withColumn("Plus de 3 mois", 
