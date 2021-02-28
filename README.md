@@ -7,7 +7,7 @@ Le projet porte sur un système de gestion d'emprunt dans une librairie. Ce proj
 - Une table **Borrow** décrivant l'état des emprunts des livres.
 # Instructions:  
 Pour lancer le projet:  
-:arrow_forward: Cloner le dépôt git sur votre ordinateur avec la l'instruction "git clone https://github.com/ibsagno95/Brisbane_city_bike"  
+:arrow_forward: Cloner le dépôt git sur votre ordinateur avec la l'instruction "git clone https://github.com/ibsagno95/BDA-SQL"  
 Le dépôt contient 3 repertoires et un fichier properties.conf.  
 1. **script:** Contient script python **projet_emprunt.py**.  
 3. **Contention:** Contient la base de données exportée contenant l'état des emprunts (si rendu ou non ).
@@ -19,10 +19,10 @@ Et enfin un fichier **properties.conf** contenant les *paths* et un fichier **ru
 
 Les réponses attendues appaîtront progressivement. Voici un exemple de sorties.
 ## Les étudiants qui ont emprunté le livre bid=’0002’ 
-![](https://github.com/ibsagno95/Brisbane_city_bike/blob/main/output/ent%C3%AAte%20du%20dataset.png)  
+![](https://github.com/ibsagno95/BDA-SQL/blob/main/Output/emprunt_0002.PNG)  
 
-## Les titres des livres jamais empruntés
-![](https://github.com/ibsagno95/Brisbane_city_bike/blob/main/output/Longitude%20et%20latitude%20moyenne%20par%20cluster.png)  
+## Les livres jamais empruntés
+![](https://github.com/ibsagno95/BDA-SQL/blob/main/Output/livres_jamais_emprunte.PNG)  
 
 ## Etat des emprunts des livres (1 si supérieur à 3 mois 0 sinon)
-![](https://github.com/ibsagno95/Brisbane_city_bike/blob/main/output/Map_brisbane.png)  
+![](https://github.com/ibsagno95/BDA-SQL/blob/main/Output/etat_des_emprunts.PNG)  
