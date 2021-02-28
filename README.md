@@ -1,5 +1,10 @@
 # BDA-SQL
-Le projet porte sur un système de gestion d'emprunt dans une librairie.
+Le projet porte sur un système de gestion d'emprunt dans une librairie. Ce projet contient 5 tables:  
+- Une table **Author** qui contient les noms des auteurs
+- Une table **Book** qui contient l'identifiant , le titre et la catégorie du livre
+- Une table **Student** qui contient les identifiants, les noms et les départements des étudiants
+- Une table **Write** décrivant l'association entre les auteurs et les livres.
+- Une table **Borrow** décrivant l'état des emprunts des livres.
 # Instructions:  
 Pour lancer le projet:  
 :arrow_forward: Cloner le dépôt git sur votre ordinateur avec la l'instruction "git clone https://github.com/ibsagno95/Brisbane_city_bike"  
