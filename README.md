@@ -11,7 +11,7 @@ Pour lancer le projet:
 Le dépôt contient 3 repertoires et un fichier properties.conf.  
 1. **script:** Contient script python **projet_emprunt.py**.  
 3. **Contention:** Contient la base de données exportée contenant l'état des emprunts (si rendu ou non ).
-4. **output:** Contient une capture de quelques sorties 
+4. **output:** Contient une capture de quelques sorties.  
 Et enfin un fichier **properties.conf** contenant les *paths* et un fichier **run.py** permettant de lancer le projet.
 
 :arrow_forward: Se placer dans le repertoire cloné et ouvrir une console et taper  l'instruction:  
