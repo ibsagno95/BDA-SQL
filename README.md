@@ -7,7 +7,7 @@ Le projet porte sur un système de gestion d'emprunt dans une librairie. Ce proj
 - Une table **Borrow** décrivant l'état des emprunts des livres.
 # Instructions:  
 Pour lancer le projet:  
-:arrow_forward: Cloner le dépôt git sur votre ordinateur avec la l'instruction "git clone https://github.com/ibsagno95/BDA_SQL"  
+:arrow_forward: Cloner le dépôt git sur votre ordinateur avec la l'instruction "git clone https://github.com/ibsagno95/BDA_emprunt"  
 Le dépôt contient 3 repertoires et un fichier properties.conf.  
 1. **script:** Contient script python **projet_emprunt.py**.  
 3. **Contention:** Contient la base de données exportée contenant l'état des emprunts (si rendu ou non ).
